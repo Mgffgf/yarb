@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
 ** يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات الجديدة في Telegram! **
 💡 ** اضفني مشرف مع صلاحيه اضافه مستخدمين واكتشف جميع أوامر البوت وكيفية عملها من خلال النقر على زر »📚 🎮 الأوامر🎮 او اكتب الاوامر! **
 🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر 🔮طريقة الاستخدام🔮! يوزر الحساب المساعد  @{ASSISTANT_NAME}  **
-⚡𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 **[—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!）⛧](https://t.me/{OWNER_NAME}) **
+⚡𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 **[ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧](https://t.me/{OWNER_NAME}) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -42,12 +42,12 @@ async def cbstart(_, query: CallbackQuery):
                         "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/FLASH_MASR"
+                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/DaD_brazely"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!）⛧", url="https://t.me/FLASH_MASR"
+                        "ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧", url="https://t.me/DaD_brazely"
                     )
                 ],
             ]
@@ -71,7 +71,7 @@ async def cbguides(_, query: CallbackQuery):
 
  💡 إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا منن خلال قروب الدعم الخاصة بي هنا ↤ @{GROUP_SUPPORT}
 
- ⚡ 🌀مطور سورس فيرس @FLASH_MASR
+ ⚡ 🌀مطور سورس برازيلي @DaD_brazely
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -116,7 +116,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /pauseاو «وقف» ايقاف التشغيل موقتآ
 » /vmute «لكتم البوت او «كتم
 » /vunmute«او «الغاء الكتم لرفع الكتم عن البوت
- ⚡ 🌀مطور سورس فيرس @FLASH_MASR
+ ⚡ 🌀مطور سورس برازيلي @DaD_brazely
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbcmds")]]
@@ -137,7 +137,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotleave  او «غادر» لطرد حساب المساعد 
  » /pingاو«تيست» - إظهار حالة البوت بينغ
  » /alive   او «السورس» إظهار معلومات البوت  (في المجموعه) 
-  ⚡ 🌀مطور سورس فيرس @FLASH_MASR
+  ⚡ 🌀مطور سورس برازيلي @DaD_brazely
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
@@ -156,7 +156,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /restart «او «تنصيب - restart your bot
 » /leaveall»او «غادرالجميع - order userbot to leave from all group
 
- ⚡ 🌀 سورس فيرس @FLASH_MASR
+ ⚡ 🌀 سورس برازيلي @DaD_brazely
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbcmds")]]
@@ -202,7 +202,7 @@ async def cbbasic(_, query: CallbackQuery):
 ⇦ ✪『  تنصيب 』✪➢ ☆ لاعاده التشغيل من هيركو
 ⇦ ✪『  غادرالجميع 』✪➢ ☆ لمغادره الحساب المساعد لجميع الدردشات
 ━━━━━━━━━━━━━━
- ⚡ 🌀 سورس فيرس @FLASH_MASR
+ ⚡ 🌀 سورس برازيلي @DaD_brazely
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙رجوع", callback_data="cbcmds")]]

@@ -60,8 +60,8 @@ async def play(c: Client, m: Message):
                 InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
                 InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
                 ],
-              [InlineKeyboardButton("—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!", url=f"t.me/FLASH_MASR"),
-              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/FLASH_MASR"),
+              [InlineKeyboardButton("ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!", url=f"t.me/DaD_brazely"),
+              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/DaD_brazely"),
                 ],
               [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"http://t.me/S8Z_BOT?startgroup=new"),              
             ]
@@ -278,8 +278,8 @@ async def stream(c: Client, m: Message):
                 InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
                 InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
               ],
-              [InlineKeyboardButton("—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!", url=f"t.me/FLASH_MASR"),
-              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/FLASH_MASR"),
+              [InlineKeyboardButton("ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!", url=f"t.me/DaD_brazely"),
+              InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/DaD_brazely"),
                 ],
               [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"http://t.me/S8Z_BOT?startgroup=new"),               
             ]

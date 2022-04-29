@@ -58,7 +58,7 @@ async def start_(client: Client, message: Message):
 ** يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات الجديدة في Telegram! **
 💡 ** اضفني مشرف مع صلاحيه اضافه مستخدمين واكتب انضم و اكتشف جميع أوامر البوت وكيفية عملها من خلال النقر على زر »📚🎮 الأوامر🎮 او اكتب الاوامر !**
 🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر 🔮طريقة الاستخدام🔮! يوزر الحساب المساعد  @{ASSISTANT_NAME} **
-⚡𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 **[—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!）⛧](https://t.me/{OWNER_NAME}) **
+⚡𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 **[ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧](https://t.me/{OWNER_NAME}) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!）⛧", url="https://t.me/FLASH_MASR"
+                        "ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧", url="https://t.me/DaD_brazely"
                     )
                 ],
             ]
@@ -105,8 +105,8 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "—͟͟͞͞✯ ᏙᎥᎡႮՏ ┋✘🏴󠁧󠁢󠁥󠁮󠁧󠁿!）⛧",
-                        url=f"https://t.me/FLASH_MASR",
+                        "ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧",
+                        url=f"https://t.me/DaD_brazely",
                     )
                 ],
                 [
