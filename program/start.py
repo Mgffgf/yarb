@@ -54,37 +54,40 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
-🤖 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **
-** يتيح لك تشغيل الموسيقى والفيديو في مجموعات من خلال المكالمات الجديدة في Telegram! **
-💡 ** اضفني مشرف مع صلاحيه اضافه مستخدمين واكتب انضم و اكتشف جميع أوامر البوت وكيفية عملها من خلال النقر على زر »📚🎮 الأوامر🎮 او اكتب الاوامر !**
-🔖 ** لمعرفة كيفية استخدام هذا البوت ، يرجى النقر فوق » زر 🔮طريقة الاستخدام🔮! يوزر الحساب المساعد  @{ASSISTANT_NAME} **
-⚡𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 **[ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧](https://t.me/{OWNER_NAME}) **
+━━━━━━━━🍁━━━━━━━━
+🎻| **انا بوت تشغيل وتنزيل الاغاني وفديو كول **
+👮🏼‍♂️| ** اضفني مشرف في مجموعتك لأعمل **
+😎| ** اتبع مايلي لمعرفه كيفيه الاستخدام **
+❓| ** اضغط علي ذر طريقه الاستخدام **
+🌐 ** الحساب المساعد  @{ASSISTANT_NAME} **
+◍مـطـور السـورس◍ **[✯𝐌𝐒✯ 𝒗𝒊𝒓𝒖𝒔┋✘🇨🇦!](https://t.me/FLASH_MASR) **
+━━━━━━━━🍁━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅اضغط لأضافه البوت لمجموعتك✅",
+                        "✅اضاف البوت لمجموعتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🔮طــريــقــة الاســتخــدام🔮", callback_data="cbhowtouse")],
-                [InlineKeyboardButton("🌀الاوامــر الكامله المعربــه🌀", callback_data="cbvamp")],                 
+                [InlineKeyboardButton("<<طــريــقــة الاســتخــدام>>", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("<<الاوامــر الكامله المعربــه>>", callback_data="cbvamp")],                 
                 [
-                    InlineKeyboardButton("🎮الاوامــــر🎮", callback_data="cbcmds"),
-                    InlineKeyboardButton("👨🏼‍💻الــمــطــور👨🏼‍💻", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("<<الاوامــــر>>", callback_data="cbcmds"),
+                    InlineKeyboardButton("<<الــمطــور>>", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✯𝐌𝐒✯ 𝒅𝒆𝒔𝒉𝒂┋✘🇨🇦!", url=f"https://t.me/J3_X3"
                     ),
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗔𝗘𝗦𝗧𝗥𝗢┋✘🇨🇦!", url=f"https://t.me/APP_YOUTUBE"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧", url="https://t.me/DaD_brazely"
+                        "<<جــروب الــدعـم>>", url="https://t.me/{GROUP_SUPPORT}"
                     )
                 ],
             ]
@@ -94,7 +97,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["alive", "لسورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["alive", f"alive@{BOT_USERNAME}","ورس","لسورس"]) & filters.group & ~filters.edited 
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -105,13 +108,13 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ᯓ 𝑩𝑨𝑹𝑨𝒁𝑬𝑳𝒀 𖤐🎌!）⛧",
-                        url=f"https://t.me/DaD_brazely",
+                        "✯𝐌𝐒✯ 𝒗𝒊𝒓𝒖𝒔┋✘🇨🇦!",
+                        url=f"https://t.me/FLASH_MASR",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "<<جــروب الــدعـم>>", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/{UPDATES_CHANNEL}"
